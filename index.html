@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sk8 Community</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+    />
+
+    <!-- CSS RESET -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <button class="cabecalho__menu" aria-label="Botão de menu">
+        <i></i>
+      </button>
+      <img src="assets/img/logo.svg" alt="" class="cabecalho__logo" />
+      <button class="cabecalho__notificacao" aria-label="Botão de notificação">
+        <i></i>
+      </button>
+    </header>
+    <nav class="menu__lateral">
+      <img
+        src="assets/img/logo.svg"
+        alt="Logo da HZC skate"
+        class="menu__lateral-logo"
+      />
+      <a
+        href="#"
+        class="menu__lateral__link icon__home menu__lateral__link-active"
+      >
+        Início</a
+      ><a href="#" class="menu__lateral__link icon__videos"> Vídeos</a
+      ><a href="#" class="menu__lateral__link icon__gaps"> Picos</a
+      ><a href="#" class="menu__lateral__link icon__partners"> Integrantes</a
+      ><a href="#" class="menu__lateral__link icon__shirts"> Camisas</a
+      ><a href="#" class="menu__lateral__link icon__paints"> Pinturas</a>
+    </nav>
+
+    <main class="principal">
+      <h2 class="titulo__pagina">Início</h2>
+
+      <article class="cartao">
+        <img
+          src="assets/img/banner-mobile_1.png"
+          alt=""
+          class="cartao__imagem"
+        />
+
+        <div class="cartao__conteudo">
+          <p class="cartao__destaque">Vídeo em destaque</p>
+
+          <h3 class="cartao__titulo">HZC - Título</h3>
+          <p class="cartao__perfil">Roh Huldson</p>
+          <p class="cartao__info cartao__info-tempo">42 minutos</p>
+          <p class="cartao__info cartao__info-visualizacao">
+            777 visualizações
+          </p>
+
+          <button class="cartao__botao cartao__botao-destaque icon-play">
+            Assistir agora
+          </button>
+        </div>
+      </article>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
