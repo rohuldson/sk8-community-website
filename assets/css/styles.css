@@ -82,6 +82,7 @@ body {
   border-left: 8px solid var(--text-color);
 }
 
+/* ===== Icons Section ======== */
 .menu__lateral__link::before {
   content: "";
   width: 24px;
@@ -110,16 +111,35 @@ body {
   content: "\e90a";
 }
 
+.cartao__botao.icon-cart::before {
+  content: "\e901";
+  font-size: 24px;
+}
+
+.cartao__info-tempo::before {
+  content: "\e90c";
+  margin-right: 8px;
+}
+.cartao__info-visualizacao::before {
+  content: "\e90f";
+  margin-right: 8px;
+}
+.cartao__info-price::before {
+  content: "\e905";
+  margin-right: 8px;
+}
+
 /* Main Principal */
 
 .principal {
   padding: 24px 16px;
+  display: grid;
+  gap: 16px;
 }
 
 .titulo__pagina {
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 1rem;
 }
 
 /* Cartoes  */
@@ -131,6 +151,9 @@ body {
   background-color: var(--bg-card);
 }
 
+.cartao--destaque {
+  margin-bottom: 16px;
+}
 /* .cartao__imagem {
 }
  */
@@ -166,15 +189,6 @@ body {
   font-size: 0.9rem;
 }
 
-.cartao__info-tempo::before {
-  content: "\e90c";
-  margin-right: 8px;
-}
-.cartao__info-visualizacao::before {
-  content: "\e90f";
-  margin-right: 8px;
-}
-
 .cartao__botao {
   display: flex;
   align-items: center;
@@ -184,6 +198,7 @@ body {
   height: 40px;
   font-size: 0.9rem;
   border-radius: 10px;
+  justify-self: flex-end;
 }
 
 .cartao__botao.icon-play::before {
@@ -198,4 +213,14 @@ body {
 
 .cartao__botao-destaque::before {
   margin-right: 8px;
+}
+
+.secao {
+  display: grid;
+  gap: 16px;
+}
+
+.titulo__secao {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
