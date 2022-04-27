@@ -5,6 +5,14 @@ Toda a estilização que será usada no projeto dentro do figma.
 [Link do projeto no figma](https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid?node-id=54%3A2358)
 
 [Neste link você pode conferir o projeto](https://rohuldson.github.io/sk8-community-website/)
+
+💙 Se você quiser me seguir no linkedin. [Rohuldson](edin.com/in/ronald-silva-34873971/)
+
+![preview img](https://github.com/rohuldson/sk8-community-website/blob/main/assets/img/demo-flexbox-skate-site.png?raw=true)
+
+![preview img](/assets/img/demo-flexbox-skate-site.png)
+
+
 ## Fonte
 
 ```html
