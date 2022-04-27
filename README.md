@@ -8,7 +8,8 @@ Toda a estilização que será usada no projeto dentro do figma.
 
 💙 Se você quiser me seguir no linkedin. [Rohuldson](edin.com/in/ronald-silva-34873971/)
 
-##Preview
+## Preview
+[E neste link você pode conferir o projeto](https://rohuldson.github.io/sk8-community-website/)
 
 ![preview img](/assets/img/demo-flexbox-skate-site.png)
 
