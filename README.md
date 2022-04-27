@@ -4,6 +4,7 @@ Toda a estilização que será usada no projeto dentro do figma.
 
 [Link do projeto no figma](https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid?node-id=54%3A2358)
 
+[Neste link você pode conferir o projeto](https://rohuldson.github.io/sk8-community-website/)
 ## Fonte
 
 ```html
